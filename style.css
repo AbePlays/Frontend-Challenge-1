@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Inria Serif", serif;
 }
 
 .card {
@@ -23,6 +24,7 @@ body {
 .card-p-1 {
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 14px;
 }
 
 .card-p-2 {
@@ -37,6 +39,11 @@ body {
   padding-left: 20px;
   padding-right: 10px;
   float: left;
+}
+
+.email-image {
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
 .first {
@@ -60,6 +67,7 @@ body {
   padding-left: 50px;
   width: 50%;
   font-size: 48px;
+  font-weight: bolder;
 }
 
 .first-image {
@@ -71,14 +79,45 @@ body {
 .first-p {
   width: 40%;
   padding-left: 50px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 .first-textinput {
   height: 30px;
   width: 300px;
-  font-size: 16px;
+  font-size: 12px;
   padding-left: 20px;
+  font-weight: lighter;
+}
+
+.footer {
+  height: 350px;
+  background-color: navy;
+  color: white;
+  position: relative;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-logo {
+  display: block;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+
+.footer-p {
+  padding-left: 50px;
+  display: inline;
+}
+
+.footer-table {
+  position: absolute;
+  left: 500px;
+  top: 140px;
 }
 
 .image {
@@ -105,6 +144,15 @@ body {
   height: 100px;
 }
 
+.phone-image {
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+.row-first {
+  padding: 10px 70px;
+}
+
 .second {
   background-color: #ecf0f1;
   margin-top: 250px;
@@ -122,13 +170,14 @@ body {
   padding-top: 60px;
   padding-left: 50px;
   width: 50%;
-  font-size: 48px;
+  font-size: 42px;
+  font-weight: bolder;
 }
 
 .second-p {
   width: 40%;
   padding-left: 50px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .second-a {
@@ -136,6 +185,16 @@ body {
   padding-left: 50px;
   text-decoration: underline;
   text-underline-position: under;
+}
+
+.social {
+  position: absolute;
+  right: 200px;
+  top: 151px;
+}
+
+.social-a {
+  margin: 0 20px;
 }
 
 .third {
