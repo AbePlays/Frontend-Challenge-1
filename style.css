@@ -137,3 +137,45 @@ body {
   text-decoration: underline;
   text-underline-position: under;
 }
+
+.third {
+  background-color: #4a69bb;
+  height: 300px;
+  position: relative;
+}
+
+.third-email {
+  width: 400px;
+  height: 30px;
+  display: block;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.third-submit {
+  width: 200px;
+  padding: 15px 0 15px 0;
+  background-color: rgb(38, 86, 210);
+  color: white;
+}
+
+.third-h2 {
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 35px;
+  color: white;
+}
+
+.third-p {
+  width: 40%;
+  padding-left: 50px;
+  color: white;
+  line-height: 1.5;
+}
+
+.third-form {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
